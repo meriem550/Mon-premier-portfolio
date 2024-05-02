@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Meriem Ben Mechlia</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Acceuil</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">A Propos</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Expériences</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projets</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME Acceuil =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Bonjour,<br>je suis <span class="home__title-color">Meriem </span><br> Testeur Qualité <br>Logiciel</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/meriem-ben-mechlia/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/meriem550" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/TESTEUR-LOGICCIEL.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">A Propos</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/testeur-logiciel.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Je suis Meriem</h2>
+                        <p class="about__text">Je suis une testeuse qualité logiciel actuellement en train de suivre une AEC Spécialiste en qualité logiciel au Bois De Boulogne. 
+                            Je Je suis à la recherche d'un stage pour appliquer mon esprit créatif et mes compétences dans le domaine de la qualité logicielle.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Compétences</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Compétences Professionnelles</h2>
+                        <p class="skills__text">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Base de données :</h3><p>SQL Server, MySQL.</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Langages :</h3><p>PHP, C#, .NET, ENTITY FRAMEWORK, HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, C, JAVA, PYTHON.</p></span>
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Framework d'automatisation :</h3><p>Robot framework, WEBDriver, Behavior Driven Development (BDT) : Cucumber test.</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Langage de modélisation :</h3><p>UML</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Outils :</h3><p>Office 365, WORDPRESS,git, postman, Selenium, Testlink, JIRA, TRELLO, pict, Xray</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Outils de modélisation :</h3><p>BPMN (Business Process Model and Notation).</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>Les éditeurs :</h3><p>Eclipse, IntelliJ IDEA, Visual Studio Code, Visual Paradigm, Netbeans.</p></span>
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name"><h3>System d’exploitation :</h3><p>Windows, Linux.</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+        <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Expériences</h2>
+
+                <div class="work__container bd-grid">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Technicienne informatique</h3><h4>  2022-2023</h4>
+                                    <h4>BeMotion, Montréal, Canada</h4>
+                                    <ul>
+                                        <li>Installer Windows, Installer les pilotes et Installer Office.</li>
+                                        <li>Prise de l'inventaire et répondre aux appels téléphoniques.</li>
+                                        <li>Effectuer des diagnostics par détecter problèmes et les réparer.</li>
+                                        <li>Effectuer les tests sur les logiciels.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Développeur C#, .NET</h3><h4>  2019-2021</h4>
+                                    <h4>PEAK, Tunisie</h4>
+                                    <ul>
+                                        <li>Réaliser un algorithme de consensus dans un système distribué (BLOCKCHAIN).</li>
+                                        <li>Réaliser une solution issue de la technologie .NET (ASP.NET MVC 6).</li>
+                                        <li>Maintenir le code existant et programmer de nouvelles applications ou fonctionnalités avec la technologie .Net</li>
+                                        <li>Utiliser Rest API pour l’envoi des requête http.</li>
+                                        <li>Utiliser HTML5 et CSS3.</li>
+                                        <li>Analyser les besoins des clients et participer au développement des projets (ateliers, documentation, formation).</li>
+                                        <li>Mettre en œuvre la politique qualité définie au sein de l'entreprise.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Chargée de compte professionnel client</h3><h4>  2017-2019</h4>
+                                    <h4>Orange, Tunisie</h4>
+                                    <ul>
+                                        <li>Gérer le logiciel CRM Metagate.</li>
+                                        <li>Représenter le client Orange sur le marché résidentiel auprès des constructeurs, des sociétés de gestion immobilière et des centres de vente et de décoration.</li>
+                                        <li>Gérer l’exécution des activités de vente et de marketing.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>DEVELOPPEUR WEB et technicienne informatique</h3><h4>  2014-2017</h4>
+                                    <h4>Pixel Informatique, Tunisie</h4>
+                                    <ul>
+                                        <li>Créer des sites web avec PHP.</li>
+                                        <li>Maintenir le matériel informatique.</li>
+                                        <li>Formater des ordinateurs.</li>
+                                        <li>Installer des logiciels et des systèmes d’exploitation (Windows, Linux).</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Chargée de compte professionnel client</h3><h4>  2013-2014</h4>
+                                    <h4>TTSHOP, Tunisie</h4>
+                                    <ul>
+                                        <li>Gérer le logiciel CRM Metagate.</li>
+                                        <li>Représenter le client Orange sur le marché résidentiel auprès des constructeurs, des sociétés de gestion immobilière et des centres de vente et de décoration.</li>
+                                        <li>Gérer l’exécution des activités de vente et de marketing.</li>
+                                </span>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                
+            </section>
+
+            
+             <!--===== Projects =====-->
+             <section class="work section" id="projects">
+                <h2 class="section-title">Projets</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://github.com/meriem550/Alfresco" target="_blank" class="work__img">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Alfresco :</h3><p>les keywords Robot framework <br> Projet d'automatisation Alfresco.</p></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/meriem550/Redmine"  target="_blank" class="work__img">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name"><h3>Framework d'automatisation Redmine:</h3><p>Projet d'automatisation Redmine.</p></span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacte Moi </h2>
+                         
+                    <div>
+                        <div class="skills__container bd-grid">
+                        
+                     <div>              
+                        <img src="assets/img/QA.png" alt="" class="skills__img">
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name"><h3>Contacte Moi :</h3>
+                                <p>Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures. Je peux vous aider avec les tests de la qualité logiciels.</p>
+                            
+                            <a href="https://www.linkedin.com/in/meriem-ben-mechlia/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/meriem550" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </span>
+                     </div>
+                      </div>   
+                     </div> 
+                    </div>
+                
+                    <div>
+                        <div class="skills__container bd-grid">
+                        
+                     <div>              
+                        <img src="assets/img/adresse.jpg" alt="" class="skills__img">
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name"><h3>Adresse :</h3>
+                                <p>Laval,Montréal,Quebec,Canada.</p>
+                                <a href="https://maps.app.goo.gl/utGAK1FXJyMDcBGeA" target="_blank" class="button">Visite dans Google Maps</a>
+                           </span>
+                     </div>
+                      </div>   
+                     </div> 
+                    </div>
+                
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Meriem Ben Mechlia</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/meriem-ben-mechlia/"  target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/meriem550"  target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy"> Créer par Meriem Ben Mechlia</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
